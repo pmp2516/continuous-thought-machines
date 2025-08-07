@@ -7,9 +7,4 @@ tqdm
 opencv-python
 imageio
 scikit-learn
-umap-learn
-python-dotenv
-gymnasium
-minigrid
 datasets
-autoclip

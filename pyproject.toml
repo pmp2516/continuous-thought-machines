@@ -1,0 +1,22 @@
+[project]
+name = "continuous-thought-machines"
+version = "0.1.0"
+description = "Continuous Thought Machines (CTM) from SakanaAI"
+readme = "README.md"
+license = "LICENSE"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=4.0.0",
+    "imageio>=2.37.0",
+    "matplotlib>=3.10.5",
+    "numpy>=2.3.2",
+    "opencv-python>=4.11.0.86",
+    "scikit-learn>=1.7.1",
+    "seaborn>=0.13.2",
+    "torch>=2.8.0",
+    "torchvision>=0.23.0",
+    "tqdm>=4.67.1",
+]
+
+[project.packages]
+include = ["models"]
