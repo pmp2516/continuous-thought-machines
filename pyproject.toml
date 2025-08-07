@@ -1,3 +1,6 @@
+[build-system]
+requires = [ "setuptools", "wheel" ]
+
 [project]
 name = "continuous-thought-machines"
 version = "0.1.0"
@@ -18,5 +21,6 @@ dependencies = [
     "tqdm>=4.67.1",
 ]
 
-[project.packages]
-include = ["models"]
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["models", "models.*"]
